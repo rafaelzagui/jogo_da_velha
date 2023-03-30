@@ -44,7 +44,7 @@ def fazerMovimento(board, i, j, jogador):
 
 def verificarGanhador(board):
     # linhas
-    for i in range(3):
+    for i in range(3):  
         if board[i][0] == board[i][1] and board[i][1] == board[i][2] and board[i][0] != branco:
             return board[i][0]
 
